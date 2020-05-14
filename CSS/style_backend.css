@@ -1,0 +1,33 @@
+*{
+  box-sizing: border-box;
+}
+
+.body{
+  padding:2em;
+}
+
+form{
+  width: 80%;
+  border: solid rgb(0, 89, 255);
+  margin:2em auto;
+  padding:2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+form div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.radio {
+  margin:0 3em;
+}
+
+.copyright {
+  text-align: right;
+}
